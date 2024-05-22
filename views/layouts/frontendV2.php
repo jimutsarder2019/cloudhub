@@ -400,14 +400,14 @@ $role = 1;
 						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=router/index">
                                 <i data-feather="wifi"></i>
-                                <span>Router</span>
+                                <span>Card Manager</span>
                             </a>
                         </li>
 						
 						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=syslog/index">
                                 <i data-feather="search"></i>
-                                <span>Active Log</span>
+                                <span>Portfolio/Project</span>
                             </a>
                         </li>
 						
