@@ -516,8 +516,23 @@ $role = 1;
 						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=syslog/search">
                                 <i data-feather="search"></i>
-                                <span>Log Search</span>
+                                <span>Task</span>
                             </a>
+                        </li>
+						
+						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Price Plans</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Log Software
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
 						
 						<li>
