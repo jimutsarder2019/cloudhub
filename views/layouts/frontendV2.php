@@ -366,6 +366,36 @@ $role = 1;
                             </ul>
                         </li>
 						
+						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Services</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>ISP Log
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>DMA Radius
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Travel Website
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Add Service
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+						
 						
 						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=router/index">
