@@ -332,6 +332,42 @@ $role = 1;
                         </li>
 						
 						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Finance</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Dashboard
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Payment Management
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Coupon (Log, Overall Discount)
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Service Charge
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Merchant Account
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+						
+						
+						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=router/index">
                                 <i data-feather="wifi"></i>
                                 <span>Router</span>
