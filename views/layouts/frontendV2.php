@@ -479,6 +479,41 @@ $role = 1;
                         </li>
 						
 						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>HR</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Department
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Designation
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Employee List
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Add Employee
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Career
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+						
+						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=syslog/search">
                                 <i data-feather="search"></i>
                                 <span>Log Search</span>
