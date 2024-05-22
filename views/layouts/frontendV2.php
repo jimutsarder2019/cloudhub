@@ -257,6 +257,46 @@ $role = 1;
                         </li>
 						
 						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Orders</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Total Orders
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Request Orders
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Approved Orders
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>In Progress
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Review
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Completed Orders
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+						
+						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=router/index">
                                 <i data-feather="wifi"></i>
                                 <span>Router</span>
