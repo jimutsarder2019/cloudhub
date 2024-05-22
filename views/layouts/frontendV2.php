@@ -411,6 +411,47 @@ $role = 1;
                             </a>
                         </li>
 						
+						
+						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Admin Panel</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>User List
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>Login History
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+						
+						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Support Panel</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Task
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
+                                        <i class="fa fa-circle"></i>All Order View
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+						
 						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=syslog/search">
                                 <i data-feather="search"></i>
