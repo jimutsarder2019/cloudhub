@@ -535,6 +535,45 @@ $role = 1;
                             </ul>
                         </li>
 						
+						
+						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Contact Us Message</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a> 
+                        </li>
+						
+						<li>
+                            <a class="sidebar-header" href="javascript:void(0)">
+                                <i data-feather="users"></i>
+                                <span>Social Media Link</span>
+                                <i class="fa fa-angle-right pull-right"></i>
+                            </a>
+                            <ul class="sidebar-submenu">
+							    <li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Facebook
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>YouTube
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Instagram
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="<?=$baseUrl ?>/?r=users/update">
+                                        <i class="fa fa-circle"></i>Twitter 
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+						
 						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=syslog/report">
                                 <i data-feather="download"></i>
