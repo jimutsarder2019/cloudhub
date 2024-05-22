@@ -577,94 +577,9 @@ $role = 1;
 						<li>
                             <a class="sidebar-header" href="<?=$baseUrl ?>/?r=syslog/report">
                                 <i data-feather="download"></i>
-                                <span>Download Log</span>
-                            </a>
-                        </li>
-						
-						<li>
-                            <a class="sidebar-header" href="<?=$baseUrl ?>/?r=report-backup/index">
-                                <i data-feather="download"></i>
-                                <span>Request Generated Log</span>
-                            </a>
-                        </li>
-						
-						<li>
-                            <a class="sidebar-header" href="<?=$baseUrl ?>/?r=syslog/data">
-                                <i data-feather="search"></i>
-                                <span>Index List</span>
-                            </a>
-                        </li>
-
-
-                        <?php if($role != 3){ ?>
-                        <li>
-                            <a class="sidebar-header" href="javascript:void(0)">
-                                <i data-feather="users"></i>
-                                <span>Panel Users</span>
-                                <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                            <ul class="sidebar-submenu">
-							    <li>
-                                    <a href="<?=$baseUrl ?>/?r=users/update">
-                                        <i class="fa fa-circle"></i>Update Your Account
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="<?=$baseUrl ?>/?r=login-history/index">
-                                        <i class="fa fa-circle"></i>Login History
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-						<?php } ?>
-						
-						<?php if($isAdmin){ ?>
-						<li>
-                            <a class="sidebar-header" href="javascript:void(0)">
-                                <i data-feather="users"></i>
-                                <span>Users</span>
-                                <i class="fa fa-angle-right pull-right"></i>
-                            </a>
-                            <ul class="sidebar-submenu">
-							    <li>
-									<a class="sidebar-header" href="<?=$baseUrl ?>/?r=users/create">
-									<i data-feather="user-plus"></i><span>Add User</span></a>
-								</li>
-								<li>
-									<a class="sidebar-header" href="<?=$baseUrl ?>/?r=users/index">
-									<i data-feather="users"></i><span>User List</span></a>
-								</li>
-                            </ul>
-                        </li>
-					   <?php } ?>
-                        
-
-						<?php if($isAdmin){ ?>
-						<li>
-                            <a class="sidebar-header" href="javascript:void(0)">
-                                <i data-feather="users"></i>
                                 <span>Settings</span>
-                                <i class="fa fa-angle-right pull-right"></i>
                             </a>
-                            <ul class="sidebar-submenu">
-							    <li>
-									<a class="sidebar-header" href="<?=$baseUrl ?>/?r=settings/update">
-									<i data-feather="user-plus"></i><span>Account</span></a>
-								</li>
-								<li>
-									<a class="sidebar-header" href="<?=$baseUrl ?>/?r=settings/email">
-									<i data-feather="users"></i><span>SMTP</span></a>
-								</li>
-                            </ul>
                         </li>
-						<?php } ?>
-                        <?php if($role != 3){ ?>
-                        <li>
-                            <a class="sidebar-header" href="<?=$baseUrl ?>/?r=site/system"><i
-                                    data-feather="archive"></i><span>System Information</span></a>
-                        </li>
-						<?php } ?>
-						
 						
 						<?php
 								
