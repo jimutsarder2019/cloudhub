@@ -1,0 +1,23 @@
+.text-dark{
+    color: black !important;
+}
+.bg-brand-light-subtle {
+    background-color: #3a70ef0d !important;
+}
+.border-bottom-1px-white{
+    border-bottom: 1px solid white;
+}
+@media screen and (max-width:768px){
+    footer{
+        text-align: center !important;
+    }
+    footer .ps-4.align-self-center.m-0{
+        text-align: left !important;
+    }
+    footer .list-unstyled.list-inline.footer-social-list.mb-0{
+        text-align: center !important;
+    }
+    footer .footer-single-col.mb-4 img{
+        margin: 0 auto !important;
+    }
+}
